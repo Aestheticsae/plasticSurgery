@@ -53,62 +53,63 @@ h1{
 h2{}
 h3{}
 h4{}
-/*Colores*/
-.gris{
 
+/*Colores*/
+.grisClaro{
+	color: #878787;
 }
 .grisOscuro{
-
+	color: #4d4d4d;
 }
 .amarillo{
-
+	color: #d7d900;
 }
 .blanco{
-
+ color: white;
 
 }
 .azulClaro{
-
+	color: #00b5ec;
 }
 .negro{
-
+	color: #000000;
 }
 .rosa{
-
+	color: #ec78ac;
 }
 .naranja{
-
+	color: #ffa100;
 }
 .azulOscuro{
-
+	color: #0062ae;
 }
-.fondoGris{
-
+.fondoGrisClaro{
+	background-color: #878787;
 }
 .fondoGrisOscuro{
-
+	background-color: #4d4d4d;
 }
 .fondoAmarillo{
-
+	background-color: #d7d900;
 }
 .fondoBlanco{
-
+	background-color:  white;
 
 }
 .fondoAzulClaro{
-
+	background-color: #00b5ec;
 }
 .fondoNegro{
-
+	background-color: #000000;
 }
 .fondoRosa{
-
+	background-color: #ec78ac;
 }
 .fondoNaranja{
-
+	background-color: #ffa100;
 }
 .fondoAzulOscuro{
-	
+	background-color: #0062ae;
 }
 
 
