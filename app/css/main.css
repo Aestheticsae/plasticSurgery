@@ -1,5 +1,66 @@
 /**Custom css style**/
 
+/*Fuente de letra*/
+
+/*Colores*/
+.gris{
+
+}
+.grisOscuro{
+
+}
+.amarillo{
+
+}
+.blanco{
+
+
+}
+.azulClaro{
+
+}
+.negro{
+
+}
+.rosa{
+
+}
+.naranja{
+
+}
+.azulOscuro{
+
+}
+.fondoGris{
+
+}
+.fondoGrisOscuro{
+
+}
+.fondoAmarillo{
+
+}
+.fondoBlanco{
+
+
+}
+.fondoAzulClaro{
+
+}
+.fondoNegro{
+
+}
+.fondoRosa{
+
+}
+.fondoNaranja{
+
+}
+.fondoAzulOscuro{
+	
+}
+
+
 
 /*Tamaño ≥ 568px*/
 @media screen and (min-width: 35.5em) {
