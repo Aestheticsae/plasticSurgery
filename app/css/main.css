@@ -114,7 +114,9 @@ h4{}
 }
 
 
-
+.menu-mobil img{
+	background-color: 	rgb(111, 111, 111);
+}
 /*Tamaño ≥ 568px*/
 @media screen and (min-width: 35.5em) {
 

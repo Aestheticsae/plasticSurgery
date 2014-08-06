@@ -1,7 +1,16 @@
-$(".menu-mobil").click(function(){
-  
-  $("html").addClass("openNav");
-  
+var menuObj = document.getElementsByClassName("menu-mobil")[0];
+
+menuObj.addEventListener("click", function(){
+	var menu  = document.getElementById("menu_principal");
+	var menuObj = document.getElementsByClassName("img-menu-mobil")[0];
+	if(menu.style.left!="0px"){
+		menu.style.left="0px";
+		menuObj.style.left="70%";
+	}else{
+		menu.style.left="-70%";
+		menuObj.style.left="0%";
+	}
 });
-	
+
+
  
