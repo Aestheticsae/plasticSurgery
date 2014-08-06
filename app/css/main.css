@@ -185,6 +185,21 @@ body {
         color: gray;
         background-color: white;
     }
+    .sub-menu{
+    	position: relative;;
+    }
+    .breadcums{
+       	-moz-transform: rotate(-90deg);
+       	-webkit-transform: rotate(-90deg);
+       	-o-transform: rotate(-90deg);
+       	-ms-transform: rotate(-90deg);
+       	transform: rotate(-90deg);
+       	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+       	position: absolute;
+       	top: 31px;
+       	left: -64px;
+       	font-size: 19pt;
+    }
 }
 /*Tamaño ≥ 1024px*/
 
