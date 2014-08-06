@@ -200,6 +200,10 @@ body {
        	left: -64px;
        	font-size: 19pt;
     }
+    .espacio-sup{
+    	margin-top: 100px;
+    }
+
 }
 /*Tamaño ≥ 1024px*/
 
@@ -215,6 +219,7 @@ body {
         width: 940px;
         margin: 0 auto;
     }
+
 }
 /*Tamaño ≥ 1280px*/
 
