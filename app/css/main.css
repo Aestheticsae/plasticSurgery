@@ -112,9 +112,13 @@ body {
 
 
 
-/*Tamaño ≥ 568px*/
+/*Reglas que se aplicar a dispositivos a partir de Tamaño ≥ 568px*/
 
 @media screen and (min-width: 35.5em) {}
+/*Reglas que se aplicar a dispositivos con un maximo de Tamaño ≥ 568px*/
+@media screen and (max-width: 35.5em) {}
+/*Reglas que se aplican a dispositivos con un tamaño entre ≥ 568px y < 768px*/
+@media screen and (min-width: 35.5em) and (max-width: 48em) {}
 /*Tamaño ≥ 768px*/
 
 @media screen and (max-width: 48em) {
