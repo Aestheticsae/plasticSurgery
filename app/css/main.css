@@ -49,10 +49,10 @@ body {
 }
 /*Colores*/
 
-.grisClaro {
+.gris-claro {
     color: #878787;
 }
-.grisOscuro {
+.gris-oscuro {
     color: #4d4d4d;
 }
 .amarillo {
@@ -61,7 +61,7 @@ body {
 .blanco {
     color: white;
 }
-.azulClaro {
+.azul-claro {
     color: #00b5ec;
 }
 .negro {
@@ -73,34 +73,34 @@ body {
 .naranja {
     color: #ffa100;
 }
-.azulOscuro {
+.azul-oscuro {
     color: #0062ae;
 }
-.fondoGrisClaro {
+.fondo-gris-claro {
     background-color: #878787;
 }
-.fondoGrisOscuro {
+.fondo-gris-oscuro {
     background-color: #4d4d4d;
 }
-.fondoAmarillo {
+.fondo-amarillo {
     background-color: #d7d900;
 }
-.fondoBlanco {
+.fondo-blanco {
     background-color: white;
 }
-.fondoAzulClaro {
+.fondo-azul-claro {
     background-color: #00b5ec;
 }
-.fondoNegro {
+.fondo-negro {
     background-color: #000000;
 }
-.fondoRosa {
+.fondo-rosa {
     background-color: #ec78ac;
 }
-.fondoNaranja {
+.fondo-naranja {
     background-color: #ffa100;
 }
-.fondoAzulOscuro {
+.fondo-azul-oscuro {
     background-color: #0062ae;
 }
 .menu-mobil img {
@@ -109,23 +109,30 @@ body {
 .logo-clinica {
     width: 57%;
 }
-/*Tamaño ≥ 568px*/
+
+
+
+/*Reglas que se aplicar a dispositivos a partir de Tamaño ≥ 568px*/
 
 @media screen and (min-width: 35.5em) {}
+/*Reglas que se aplicar a dispositivos con un maximo de Tamaño ≥ 568px*/
+@media screen and (max-width: 35.5em) {}
+/*Reglas que se aplican a dispositivos con un tamaño entre ≥ 568px y < 768px*/
+@media screen and (min-width: 35.5em) and (max-width: 48em) {}
 /*Tamaño ≥ 768px*/
 
 @media screen and (max-width: 48em) {
-    .menu_iqz {
+    .menu-iqz {
         margin-bottom: 0px;
         margin-top: 0px;
     }
-    .menu_dech {
+    .menu-dech {
         margin-top: 0px;
     }
-    #menu_principal ul {
+    #menu-principal ul {
         padding: 0px;
     }
-    #menu_principal {
+    #menu-principal {
         width: 70%;
         position: absolute;
         left: -70%;
@@ -133,7 +140,7 @@ body {
         height: 100%;
         background: #777;
     }
-    #menu_principal ul li a {
+    #menu-principal ul li a {
         display: block;
         padding: 1em 1em 1em 1.2em;
         outline: none;
@@ -147,7 +154,7 @@ body {
         transition: background 0.3s, box-shadow 0.3s;
         text-decoration: none;
     }
-    #menu_principal ul li a:hover {
+    #menu-principal ul li a:hover {
         background-color: white;
     }
     .menu-mobil img {
@@ -161,27 +168,27 @@ body {
     .menu-mobil {
         display: none;
     }
-    .menu_wrapper_izq {
+    .menu-wrapper-izq {
         width: 50%;
         float: left;
     }
-    .menu_iqz {
+    .menu-iqz {
         float: right;
     }
-    .menu_wrapper_dech {
+    .menu-wrapper-dech {
         width: 50%;
         float: right;
     }
-    #menu_principal {
+    #menu-principal {
         clear: both;
         overflow: hidden;
     }
-    #menu_principal ul li a {
+    #menu-principal ul li a {
         color: black;
         text-decoration: none;
         font-size: 24px;
     }
-    #menu_principal ul li a:hover {
+    #menu-principal ul li a:hover {
         color: gray;
         background-color: white;
     }
@@ -230,7 +237,7 @@ body {
 /*Tamaño ≥ 1024px*/
 
 @media screen and (max-width: 64em) {
-    #menu_principal ul li a {
+    #menu-principal ul li a {
         color: black;
         text-decoration: none;
         font-size: 20px;
