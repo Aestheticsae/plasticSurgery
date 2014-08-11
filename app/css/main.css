@@ -232,7 +232,18 @@ body {
 		height: 600px;
 		margin-left: 270px;
 	}
+	.cont-img-recepcion{
+		margin-top: 50px;
 
+	}
+	.recepcion{
+		width: 706px;
+		float: right;
+	}
+	.recepcion2{
+		width: 380px;
+		margin-left: 10px;
+	}
 }
 /*Tamaño ≥ 1024px*/
 
