@@ -244,6 +244,14 @@ body {
 		width: 380px;
 		margin-left: 10px;
 	}
+	.texto-leopoldo{
+		margin-top: 20px;
+		width: 30%;
+		height: 400px;
+	}
+	.leopoldo{
+		width: 600px;
+	}
 }
 /*Tamaño ≥ 1024px*/
 
