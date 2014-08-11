@@ -203,6 +203,28 @@ body {
     .espacio-sup{
     	margin-top: 100px;
     }
+    .contenido{
+    	margin-top: 30px;
+    }
+    .idioma{
+    	width: 43%;
+    	float: left;
+    }
+
+    .idioma img{
+    	float: right;
+    }
+	.textopres{
+		width: 57%;
+		float:right;
+	}
+	.textopres span{
+		background-color: #4d4d4d;
+	}
+	.cont-img-ambos img{
+		height: 600px;
+		margin-left: 270px;
+	}
 
 }
 /*Tamaño ≥ 1024px*/
