@@ -12,11 +12,26 @@
 //	}
 //});
 
+/*Poden escuchar un evento de cambio de tamaño*/
+window.addEventListener("resize", function () {
+  var recResizeElement = function (root) {
+    Array.prototype.forEach.call(root.childNodes, function (el) {
+
+      var resizeEvent = document.createEvent("HTMLEvents");
+      resizeEvent.initEvent("resize", false, true);
+      var propagate = el.dispatchEvent(resizeEvent);
+
+      if (propagate)
+        recResizeElement(el);
+    });
+  };
+  recResizeElement(document.body);
+});
 /*Menú movil */
 var    menuRight = document.getElementById( 'cbp-spmenu-s2' ),
-        body = document.body;
+        body = document.body,breadcums=document.getElementsByClassName( 'breadcums' )[0];
 
-showRight.onclick = function() {
+botonMovil.onclick = function() {
     classie.toggle( this, 'active' );
     classie.toggle( menuRight, 'cbp-spmenu-open' );
      
