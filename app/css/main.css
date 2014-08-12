@@ -268,6 +268,18 @@ body {
 	.cont-img-cachitosbn{
 		margin-top: 50px;
 	}
+	.titulo-especialidad{
+		color: white;
+		float: right;
+		padding-right: 30px;
+	}
+	.titulo-tratamientos{
+		color: white;
+		float: left;
+	}
+	.espacio-trata{
+		margin-top: 16px;
+	}
 }
 /*Tamaño ≥ 1024px*/
 
