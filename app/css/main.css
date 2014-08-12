@@ -109,8 +109,9 @@ body {
 .logo-clinica {
     width: 57%;
 }
-
-
+.breadcums-movil{
+    display: none;
+}
 
 /*Reglas que se aplicar a dispositivos a partir de Tamaño ≥ 568px*/
 
@@ -122,6 +123,9 @@ body {
 /*Tamaño ≥ 768px*/
 
 @media screen and (max-width: 48em) {
+    body{
+        margin: 10px;
+    }
     .menu-iqz {
         margin-bottom: 0px;
         margin-top: 0px;
@@ -160,6 +164,16 @@ body {
     .menu-mobil img {
         width: 48px;
         position: fixed;
+    }
+    .breadcums{
+       display: none;
+    }
+     .breadcums-movil{
+       display: block;
+       font-size: 1.8em;
+       background-color: rgb(94, 94, 94);
+       padding: 5px 0px;
+       margin: 5px 0px;
     }
 }
 /*Tamaño ≥ 768px*/

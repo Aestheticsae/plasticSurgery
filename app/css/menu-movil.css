@@ -1,84 +1,39 @@
-
-
 @media screen and (max-width: 48em) {
 
-
+    
     #showRight {
-
-
         position: fixed;
-
-
         top: 0px;
-
-
         right: 0px;
-
-
         width: 64px;
-
-
     }
-
 
     /* Estilos generales del menu */
 
-
     #cbp-spmenu-s2 h3 {
-
-
         display: block;
-
-
     }
-
 
     #cbp-spmenu-s2 h3 img {
-
-
         float: right;
-
-
         cursor: pointer;
-
-
     }
 
-
     .cbp-spmenu {
-
-
         background: #777;
-
-
         position: fixed;
-
-
     }
 
 
     .cbp-spmenu h3 {
-
-
         color: black;
-
-
         font-size: 1.9em;
-
-
         padding: 20px;
-
-
         margin: 0;
-
-
         font-weight: 300;
-
-
         background: #777;
-
-
     }
+
 
 
     .cbp-spmenu a {
