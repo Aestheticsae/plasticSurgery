@@ -90,6 +90,7 @@ body {
 }
 .fondo-azul-claro {
     background-color: #00b5ec;
+    color: white;
 }
 .fondo-negro {
     background-color: #000000;
@@ -111,6 +112,9 @@ body {
 }
 .breadcums-movil{
     display: none;
+}
+a{
+text-decoration: none;
 }
 /*separacion entre columnas*/
  .l-box {
@@ -228,12 +232,11 @@ body{
 
 	}
 	.recepcion{
-		width: 706px;
 		float: right;
 	}
 	.recepcion2{
-		width: 380px;
-		margin-left: 10px;
+		float: right;
+		margin-right: 50px;
 	}
 	.texto-leopoldo{
 		margin-top: 20px;
