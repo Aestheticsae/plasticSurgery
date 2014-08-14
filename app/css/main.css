@@ -99,6 +99,7 @@ body {
 }
 .fondo-rosa {
     background-color: #ec78ac;
+    color:white;
 }
 .fondo-naranja {
     background-color: #ffa100;
@@ -134,6 +135,19 @@ text-decoration: none;
 }
 .tag a:hover{
 	background-color: #00b5ec;
+}
+.pdf{
+	float: right;
+}
+
+.separacion-pdf{
+	margin-bottom: 10px;
+}
+.separacion-pdf a{
+	color:white;
+}
+.separacion-pdf a:hover{
+	color:black;
 }
 /*separacion entre columnas*/
  .l-box {
