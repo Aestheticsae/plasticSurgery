@@ -81,6 +81,7 @@ body {
 }
 .fondo-gris-oscuro {
     background-color: #4d4d4d;
+    color:white;
 }
 .fondo-amarillo {
     background-color: #d7d900;
@@ -94,6 +95,7 @@ body {
 }
 .fondo-negro {
     background-color: #000000;
+    color:white;
 }
 .fondo-rosa {
     background-color: #ec78ac;
@@ -115,6 +117,23 @@ body {
 }
 a{
 text-decoration: none;
+}
+.tag{
+	margin-right: 298px;
+}
+.tag a{
+	color: white;
+	border-right: solid 1px;
+	padding:0px 5px 0px 5px;
+}
+.tag a:last-child{
+	border-right: 0px;
+}
+.tag a:active{
+	background-color: #00b5ec;
+}
+.tag a:hover{
+	background-color: #00b5ec;
 }
 /*separacion entre columnas*/
  .l-box {
@@ -250,16 +269,18 @@ body{
 		margin-top: 50px;
 	}
 	.titulo-especialidad{
-		color: white;
+		text-align: right;
 		float: right;
 		padding-right: 30px;
 	}
 	.titulo-tratamientos{
-		color: white;
 		float: left;
 	}
 	.espacio-trata{
 		margin-top: 16px;
+	}
+	.situacion-botox{
+		margin-top: 250px;
 	}
 }
 
