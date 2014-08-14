@@ -150,6 +150,16 @@ text-decoration: none;
 .separacion-pdf a:hover{
 	color:black;
 }
+.titulo-especialidad{
+		text-align: right;
+		float: right;
+		padding-right: 30px;
+	}
+.justificado{
+	text-align: justify;
+	padding-left: 5px;
+	padding-right: 5px;
+}
 /*separacion entre columnas*/
  .l-box {
         padding:0px 1em 0em 0em;
