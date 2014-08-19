@@ -7,7 +7,7 @@ ul.resp-tabs-list, p {
 
 .resp-tabs-list li {
     font-weight: 600;
-    font-size: 13px;
+   
     display: inline-block;
     padding: 5px 15px;
     margin: 0;
@@ -60,7 +60,7 @@ h2.resp-accordion {
 }
 
 h2.resp-accordion {
-    font-size: 13px;
+    
    
   
     margin: 0px;
