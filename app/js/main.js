@@ -45,3 +45,4 @@ closeMenu.onclick = function() {
 
  
  $('#demoTab').easyResponsiveTabs();
+ $("#lightGallery").lightGallery();
