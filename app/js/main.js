@@ -44,4 +44,4 @@ closeMenu.onclick = function() {
 
 
  
- 
+ $('#demoTab').easyResponsiveTabs();
