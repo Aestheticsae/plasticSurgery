@@ -200,10 +200,24 @@ body{
     .tag{
     	margin-right: 0px;
     }
+     .logo-plastic{
+        width: 93%;
+        
+    }
+    .menu-dech li:first-child{
+        display: none;
+    }
 }
 /*Tamaño ≥ 768px*/
 
 @media screen and (min-width: 48em) {
+    .texto-presentacion{
+        margin-top:10px;
+    }
+    .logo-plastic{
+        width: 93%;
+        margin-left: 4%;
+    }
     .menu-mobil {
         display: none;
     }
@@ -220,23 +234,13 @@ body{
     }
     
     .sub-menu{
-    	position: relative;;
+    	position: relative;
+        width: 80%;
     }
     .breadcums{
-       	-moz-transform: rotate(-90deg);
-       	-webkit-transform: rotate(-90deg);
-       	-o-transform: rotate(-90deg);
-       	-ms-transform: rotate(-90deg);
-       	transform: rotate(-90deg);
-       	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-        -webkit-transform-origin: left bottom;
-        -moz-transform-origin: left bottom;
-        -ms-transform-origin: left bottom;
-        -o-transform-origin: left bottom;
-        transform-origin: left bottom;
-       	position: absolute;
-        
-       	font-size: 19pt;
+      	position: absolute;
+        margin: 0px auto;
+        width: 100%
     }
     .breadcums-especialidades{
     	-moz-transform: rotate(-90deg);
