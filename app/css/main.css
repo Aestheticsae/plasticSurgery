@@ -229,11 +229,11 @@ body{
        	-ms-transform: rotate(-90deg);
        	transform: rotate(-90deg);
        	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-        -webkit-transform-origin: right top;
-        -moz-transform-origin: right top;
-        -ms-transform-origin: right top;
-        -o-transform-origin: right top;
-        transform-origin: right top;
+        -webkit-transform-origin: left bottom;
+        -moz-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+        -o-transform-origin: left bottom;
+        transform-origin: left bottom;
        	position: absolute;
         
        	font-size: 19pt;
