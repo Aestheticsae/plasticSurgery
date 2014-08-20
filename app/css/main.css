@@ -183,6 +183,9 @@ body{
     body{
         margin:10px 10px;
     }
+     .submenu{
+        margin-bottom:10px;
+    }
     .breadcums{
        display: none;
     }
@@ -211,6 +214,9 @@ body{
 /*Tamaño ≥ 768px*/
 
 @media screen and (min-width: 48em) {
+    .submenu{
+        text-align: right;
+    }
     .texto-presentacion{
         margin-top:10px;
     }

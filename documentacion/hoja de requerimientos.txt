@@ -1,0 +1,31 @@
+elejimos nombre de las paginas que vamos a implementar para respetar los enlaces
+las que iran en la raiz
+index.html --> la portada donde se elijen idioma
+inicio.html -->  donde viene el mostrador
+especialidades.html 
+	estetica.html
+		 Botox.html
+		Mesoterapiafacialrejuvenecedora.html
+		Rellenosfaciales.html
+		Peeling.html
+		PRP.html
+		Dermaroller.html
+		Aqualix.html
+		Mesoterapiacorporal.html
+		Carboxiterapia.html
+	FLEBOLOGiA.html
+	FACIAL.html
+	MAMARIA.html
+	CONTORNO_CORPORAL.html
+	REPARADORA.html
+	MORFO-FUNCIONAL-NARIZ.html
+	BARIATRICA.html
+	REGENERATIVA.html
+	ESTÉTICA-BELLEZA.html
+docencia.html 
+	talleres.html
+contacto.html
+equipo.html
+actualidad.html
+
+Para el idioma utilizaremos un script, asi no tendremos que crear lo de los lenguajes y tantas paginas.

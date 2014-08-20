@@ -46,3 +46,12 @@ closeMenu.onclick = function() {
  
  $('#demoTab').easyResponsiveTabs();
  $("#lightGallery").lightGallery();
+
+//html10n.language='fr';
+//html10n.localize('fr');
+//html10n.bind("localized", function() {
+//  console.log("Localized!");
+//});
+//html10n.index();
+//var message = html10n.get('test');
+//alert(message);

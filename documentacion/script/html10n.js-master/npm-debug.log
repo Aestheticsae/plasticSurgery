@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'search',
+1 verbose cli   '/.*' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose url raw /-/all/since?stale=update_after&startkey=1406451142843
+5 verbose url resolving [ 'https://registry.npmjs.org/',
+5 verbose url resolving   './-/all/since?stale=update_after&startkey=1406451142843' ]
+6 verbose url resolved https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1406451142843
+7 info trying registry request attempt 1 at 20:18:10
+8 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1406451142843
+9 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+10 info trying registry request attempt 2 at 20:18:20
+11 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1406451142843
+12 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+13 info trying registry request attempt 3 at 20:19:20
+14 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1406451142843
+15 error network getaddrinfo ENOTFOUND
+15 error network This is most likely not a problem with npm itself
+15 error network and is related to network connectivity.
+15 error network In most cases you are behind a proxy or have bad network settings.
+15 error network
+15 error network If you are behind a proxy, please make sure that the
+15 error network 'proxy' config is set properly.  See: 'npm help config'
+16 error System Windows_NT 6.1.7601
+17 error command "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "search" "/.*"
+18 error cwd C:\Users\ggandia\Documents\GitHub\plasticSurgery\documentacion\script\html10n.js-master
+19 error node -v v0.10.29
+20 error npm -v 1.4.14
+21 error syscall getaddrinfo
+22 error code ENOTFOUND
+23 error errno ENOTFOUND
+24 verbose exit [ 1, true ]

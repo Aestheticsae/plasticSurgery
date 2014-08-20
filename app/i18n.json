@@ -1,0 +1,14 @@
+{
+	"en": {
+	  "test": "This is a test",
+	  "test.title": "click me!"
+	},
+	"fr": {
+	  "test": "Ceci est un test",
+	  "test.title": "cliquez-moi!"
+	  },
+	"es": {
+	  "test": "Esto es una prueba",
+	  "test.title": "Haz click!"
+	}
+}

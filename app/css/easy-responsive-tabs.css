@@ -62,7 +62,7 @@ h2.resp-accordion {
 h2.resp-accordion {
     
    
-  
+  background-color: #4d4d4d;
     margin: 0px;
     padding: 10px 15px;
 }
@@ -134,7 +134,7 @@ h2.resp-tab-active span.resp-arrow {
 
 /*-----------Accordion styles-----------*/
 h2.resp-tab-active {
-    background: #DBDBDB !important;
+    background: #4d4d4d !important;
 }
 .resp-easy-accordion  h2.resp-accordion {
         display: block;

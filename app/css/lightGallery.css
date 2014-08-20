@@ -38,7 +38,17 @@
 /** / End of font-icons /**/
 
 
-
+#lightGallery{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+#lightGallery li{
+	float: left;
+	padding-right: 10px;
+}
+ 
 
 .lightGallery {
 	overflow: hidden!important;
