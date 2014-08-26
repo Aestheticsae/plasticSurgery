@@ -162,6 +162,9 @@ text-decoration: none;
 .texto-presentacion a{
 	color: black;
 }
+.portada-arriba{
+    margin-top: 50px;
+}
 /*separacion entre columnas*/
  .l-box {
         padding:0px 1em 0em 0em;
