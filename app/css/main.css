@@ -152,7 +152,7 @@ text-decoration: none;
 .titulo-especialidad{
 		text-align: right;
 		float: right;
-		padding-right: 30px;
+		
 	}
 .justificado{
 	text-align: justify;
@@ -164,6 +164,9 @@ text-decoration: none;
 }
 .portada-arriba{
     margin-top: 50px;
+}
+.marg-contacto{
+	margin-right:10px;
 }
 /*separacion entre columnas*/
  .l-box {
@@ -314,7 +317,7 @@ body{
 	.titulo-especialidad{
 		text-align: right;
 		float: right;
-		padding-right: 30px;
+		
 	}
 	.titulo-tratamientos{
 		float: left;
