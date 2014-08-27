@@ -8,9 +8,9 @@ especialidades.html
 		Mesoterapiafacialrejuvenecedora.html
 		Rellenosfaciales.html
 		Peeling.html
-		PRP.html
+		factoresdecrecimiento.html
 		Dermaroller.html
-		Aqualix.html
+		intralipoterapia.html
 		Mesoterapiacorporal.html
 		Carboxiterapia.html
 	FLEBOLOGiA.html
