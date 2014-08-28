@@ -26,6 +26,11 @@ docencia.html
 	talleres.html
 contacto.html
 equipo.html
+	dramariajosesantana.html
+	drleopoldo.html (ejemplo)
+	drcarlospasquale.html
+	dfernandonicolau.html
+	dramariajesusolaso.html
 actualidad.html
 
 Para el idioma utilizaremos un script, asi no tendremos que crear lo de los lenguajes y tantas paginas.
