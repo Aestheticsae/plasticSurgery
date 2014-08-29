@@ -141,7 +141,11 @@ text-decoration: none;
 }
 
 .separacion-pdf{
-	margin-bottom: 10px;
+	padding: 10px 0px 0px 10px;
+    overflow: hidden;
+}
+.separacion-pdf:last-child{
+    padding: 10px 0px 10px 10px;
 }
 .separacion-pdf a{
 	color:white;
@@ -168,12 +172,19 @@ text-decoration: none;
 .marg-contacto{
 	margin-right:10px;
 }
+.cont-img-recepcion{
+        margin-top: 50px !important;
+
+    }
 /*separacion entre columnas*/
  .l-box {
         padding:0px 1em 0em 0em;
     }
 
-
+#map{
+    width:100%;
+    height:300px;
+}
 /*Reglas que se aplicar a dispositivos a partir de Tamaño ≥ 568px*/
 
 @media screen and (min-width: 35.5em) {}
@@ -186,6 +197,28 @@ body{
         margin:0px 10px;
     }
 @media screen and (max-width: 48em) {
+    .textopres{
+    margin-left: 91px;
+}
+
+    .logo-docencia{
+       width: 100%;
+       margin-top: 10px;
+    }
+    .titulo-especialidad {
+         text-align: left;
+         float: none;
+        margin-bottom: 10px;
+    }
+    .titulo-tratamientos{
+         margin-top:10px;
+    }
+    .cont-img-cachitosbn{
+        margin-top:20px;
+    }
+    .hide-sm{
+        display: none;
+    }
     body{
         margin:10px 10px;
     }
@@ -215,6 +248,20 @@ body{
     }
     .menu-dech li:first-child{
         display: none;
+    }
+    .contenido{
+        overflow: hidden;
+        margin-top: 10px;
+    }
+    .idioma {
+        float: left;
+    }
+    .idioma img{
+        float: right;
+    }
+    .cont-img-recepcion{
+        margin-top: 25px !important;
+
     }
 }
 /*Tamaño ≥ 768px*/
@@ -292,17 +339,8 @@ body{
 		height: 600px;
 		margin-left: 270px;
 	}
-	.cont-img-recepcion{
-		margin-top: 50px;
-
-	}
-	.recepcion{
-		float: right;
-	}
-	.recepcion2{
-		float: right;
-		margin-right: 50px;
-	}
+	
+	
 	.texto-leopoldo{
 		margin-top: 20px;
 		width: 31%;
